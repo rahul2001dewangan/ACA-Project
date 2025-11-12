@@ -20,6 +20,10 @@ Make sure SimpleScalar is installed and the benchmark `test-fmath` is available
 (it comes pre-included in most SimpleScalar setups).
 
 ### 3. Run the Automation Script
+Make the bash file executable by running the following command:
+```bash
+chmod +x run_all.sh
+```
 All steps — simulation, data extraction, and graph generation — can be executed with one command:
 ```bash
 ./run_all.sh
