@@ -26,15 +26,16 @@ Compile the RRIP benchmark file (if using rrip.c)
 ```
 
 ```bash
-./sim-outorder -cache:dl1 dl1:32:32:4:l /benchmark/rrip   (LRU)
+./sim-outorder -cache:dl1 dl1:32:32:4:l rrip 
 ```
 
 ```bash
-./sim-outorder -cache:dl1 dl1:32:32:4:p /benchmark/rrip   (RRIP)
+./sim-outorder -cache:dl1 dl1:32:32:4:p rrip 
 ```
 
 ## Results:
 DL1 Miss Rate — LRU: 0.0758, RRIP: 0.0757
+IPC similar for both.
 
 ## Authors:
 Lokesh Lingam, Rahul Dewangan
