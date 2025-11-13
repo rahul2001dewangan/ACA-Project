@@ -20,6 +20,8 @@ Make sure SimpleScalar is installed and the benchmark `test-fmath` is available
 (it comes pre-included in most SimpleScalar setups).
 
 ### 3. Run the Automation Script
+Change the test file path and sim-outorder path in run_analysis.sh
+
 Make the bash file executable by running the following command:
 ```bash
 chmod +x run_all.sh
